@@ -6,15 +6,18 @@
 </head>
 <body>
 
+	<textarea id="former" name="content" rows="25" cols="100" class="w3-border w3-border-purple"></textarea>
+	
+	<br>
+	<button onclick="javascript:myFunction()">순서 만들기</button>
+	
 	<textarea name="content" rows="25" cols="100" class="w3-border w3-border-purple"></textarea>
-	
-	
 	
 	<script type="text/javascript">
 	function myFunction(){
-	    var str=document.getElementById("id1");
-	    var a="ASCII Code is == >  ";
-		document.getElementById("demo").innerHTML =str;
+	    var str=document.getElementById("former");
+	    
+		alert(str.value);
 	}
 	</script>
 </body>
