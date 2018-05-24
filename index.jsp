@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h1>version 1</h1>
 	<textarea id="former" name="content" rows="25" cols="100" class="w3-border w3-border-purple"></textarea>
 	
 	<br>
