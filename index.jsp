@@ -29,7 +29,7 @@
 	    var rand = Math.floor(Math.random()*strArr.length) + 1;
 	    for(var i=0;i<strArr.length-1;i++){
 	    		
-			   comple= comple + "<br> <p class='seq'>"+(i+1) + strArr[i] + "</p><br>";
+			   comple= comple + "<br> <p class='seq'>" + strArr[i] + "</p><br>";
 		   }
 	    latter.innerHTML="<div id='con'>"+comple+"</div>";
 	}
